@@ -1,0 +1,166 @@
+State,District,Market Name,Arrival(QTL),Variety,MODAL Price (RS/QTL),MIN Price (RS/QTL),MAX Price (RS/QTL),CropName
+Uttar Pradesh,Lakhimpur,Lakhimpur,50000,Dara,1725,1715,1975,Wheat
+Uttar Pradesh,Sitapur,Sitapur,11465,Dara,1705,1690,1975,Wheat
+Madhya Pradesh,Gwalior,Dabra,10225,Other,1780,1720,1845,Wheat
+Gujarat,Banaskanth,Deesa,9760,Other,1950,1680,2340,Wheat
+Uttar Pradesh,Lakhimpur,Golagokarnath,8500,Dara,1720,1620,1975,Wheat
+Madhya Pradesh,Vidisha,Vidisha,8420,Lokwan,1840,1600,3110,Wheat
+Uttar Pradesh,Sitapur,Mehmoodabad,7800,Dara,1720,1660,1975,Wheat
+Uttar Pradesh,Agra,Agra,6210,Dara,1800,1750,1820,Wheat
+Uttar Pradesh,Lakhimpur,Paliakala,4800,Dara,1715,1700,1975,Wheat
+Uttar Pradesh,Khiri (Lakhimpur),Maigalganj,4500,Dara,1670,1600,1720,Wheat
+Uttar Pradesh,Bulandshahar,Buland Shahr,3200,Dara,1920,1900,1975,Wheat
+Gujarat,Dahod,Dahod,3092,147 Average,1900,1875,2000,Wheat
+Gujarat,Dahod,Dahod,3092,Lokwan,1900,1875,2000,Wheat
+Rajasthan,Dausa,Lalsot,2513,Other,1744,1500,1850,Wheat
+Gujarat,Rajkot,Dhoraji,1906,Lokwan,1640,1450,1705,Wheat
+Gujarat,Sabarkantha,Modasa,1811,Lokwan Gujrat,1888,1650,2125,Wheat
+Maharashtra,Jalana,Jalana,1560,147 Average,1800,1650,2215,Wheat
+Rajasthan,Chittorgarh,Begu,1450,Other,1840,1630,1860,Wheat
+Madhya Pradesh,Sagar,Bina,1440,MP(Desi),1900,1800,2000,Wheat
+Gujarat,Banaskanth,Palanpur,1400,Other,1875,1675,2075,Wheat
+Uttar Pradesh,Saharanpur,Gangoh,1150,Dara,1950,1920,1976,Wheat
+Chattisgarh,Kabirdham,Pipriya,1000,Deshi,1500,1500,1500,Wheat
+Gujarat,Banaskanth,Thara,890,Other,1782.5,1560,2005,Wheat
+Maharashtra,Dhule,Dhule,770,Other,1785,1760,1870,Wheat
+Uttar Pradesh,Muradabad,Bhehjoi,650,Dara,1920,1840,1975,Wheat
+Rajasthan,Hanumangarh,Suratgarh,610,Other,1910,1885,1921,Wheat
+Rajasthan,Alwar,Kherli,554,Other,1826,1731,1870,Wheat
+Maharashtra,Akola,Akola,490,Other,1725,1600,1850,Wheat
+Madhya Pradesh,Bhind,Lahar,485,Other,1720,1710,1725,Wheat
+Maharashtra,Nashik,Lasalgaon(Vinchur),410,Other,1800,1600,1961,Wheat
+Madhya Pradesh,Shajapur,Soyatkalan,390,Other,1750,1705,1800,Wheat
+Madhya Pradesh,Guna,Maksudangarh,372,Other,1831,1760,1951,Wheat
+Gujarat,Sabarkantha,Modasa(Tintoi),349,Lokwan,1785,1550,2015,Wheat
+Uttar Pradesh,Shahjahanpur,Tilhar,340,Dara,1728,1705,1751,Wheat
+Maharashtra,Vashim,Malegaon(Vashim),300,Other,1700,1600,1800,Wheat
+Chattisgarh,Raigarh,Sarangarh,288,Deshi,1550,1550,1550,Wheat
+Maharashtra,Akola,Murtizapur,280,Other,1850,1650,2110,Wheat
+Maharashtra,Buldhana,Khamgaon,240,Other,1690,1581,1800,Wheat
+Karnataka,Gadag,Nargunda,230,H.D.,1850,1850,1850,Wheat
+Karnataka,Belgaum,Ramdurga,200,Local,1450,1300,1500,Wheat
+Rajasthan,Ajmer,Bijay Nagar,150,Other,1960,1520,2100,Wheat
+Uttar Pradesh,Rampur,Rampur,140,Dara,1950,1925,1965,Wheat
+Maharashtra,Nashik,Lasalgaon(Niphad),130,Maharashtra 2189,1755,1699,1931,Wheat
+Chattisgarh,Kabirdham,Kawardha,120,Deshi,1500,1500,1500,Wheat
+Uttar Pradesh,Badaun,Babrala,120,Dara,1720,1650,1850,Wheat
+Madhya Pradesh,Bhind,Mehgaon,117,Other,1710,1700,1725,Wheat
+Gujarat,Banaskanth,Panthawada,113,Other,1815,1605,2025,Wheat
+Maharashtra,Buldhana,Chikali,110,Other,1955,1900,2010,Wheat
+Maharashtra,Amarawati,Morshi,100,Other,1775,1700,1850,Wheat
+Telangana,Nalgonda,Tirumalagiri,15813,I.R. 64,1386,1226,1509,Paddy
+Karnataka,Raichur,Raichur,14440,Rajahamsa,1401,1329,1401,Paddy
+Karnataka,Raichur,Raichur,14440,Sona Mahsuri,1560,1402,1849,Paddy
+Telangana,Nalgonda,Suryapeta,8710,B P T,1361,1361,1361,Paddy
+Telangana,Nalgonda,Suryapeta,8710,HMT,1759,1468,1789,Paddy
+Telangana,Nalgonda,Suryapeta,8710,I.R. 64,1356,1301,1589,Paddy
+Uttar Pradesh,Lakhimpur,Lakhimpur,4000,Common,1550,1500,1580,Paddy
+Uttar Pradesh,Hardoi,Hardoi,1900,Paddy Coarse,1630,1590,1660,Paddy
+Chattisgarh,Kondagaon,Kondagoan,1500,Paddy Coarse,1450,1400,1500,Paddy
+Uttar Pradesh,Sitapur,Sitapur,1340,Paddy Coarse,1315,1300,1350,Paddy
+West Bengal,Birbhum,Sainthia,1330,Common,1850,1840,1860,Paddy
+Uttar Pradesh,Lakhimpur,Golagokarnath,1300,Common,1530,1430,1868,Paddy
+Uttar Pradesh,Khiri (Lakhimpur),Maigalganj,1000,Common,1500,1450,1530,Paddy
+Uttar Pradesh,Lakhimpur,Paliakala,850,Common,1520,1320,1868,Paddy
+West Bengal,Murshidabad,Jangipur,690,Common,1830,1820,1850,Paddy
+Telangana,Khammam,Charla,627,MTU-1010,1850,1820,1860,Paddy
+West Bengal,Birbhum,Birbhum,620,Common,1830,1820,1890,Paddy
+Chattisgarh,Dhamtari,Nagari,580,I.R. 36,1450,1450,1450,Paddy
+West Bengal,Birbhum,Bolpur,520,Common,1840,1820,1890,Paddy
+Uttar Pradesh,Hardoi,Sandila,500,Common,1625,1560,1670,Paddy
+Chattisgarh,Kanker,Charama,330,Other,1625,1600,1650,Paddy
+Jharkhand,Lohardaga,Lohardaga,160,Paddy fine,1755,1380,1760,Paddy
+Jharkhand,Lohardaga,Lohardaga,160,Paddy Medium,1750,1320,1755,Paddy
+Gujarat,Dahod,Dahod,137,Paddy Coarse,1270,1260,1280,Paddy
+Gujarat,Dahod,Dahod,137,Paddy fine,1440,1400,1500,Paddy
+Uttar Pradesh,Raebarelli,Raibareilly,130,Common,1500,1490,1510,Paddy
+Odisha,Puri,Nimapara,120,Other,1750,1650,1868,Paddy
+Uttar Pradesh,Basti,Basti,115,Paddy Coarse,1530,1480,1580,Paddy
+Madhya Pradesh,Dindori,Gorakhpur,115,Other,1270,1265,1275,Paddy
+Uttar Pradesh,Bahraich,Bahraich,110,Paddy,1560,1500,1650,Paddy
+Chattisgarh,Sukma,Konta,100,Paddy Coarse,1250,1200,1300,Paddy
+Uttar Pradesh,Maharajganj,Partaval,100,Paddy Coarse,1635,1600,1650,Paddy
+Chattisgarh,Rajnandgaon,Dongargarh,100,MTU-1010,1550,1550,1550,Paddy
+Chattisgarh,Dhamtari,Gattasilli,100,I.R. 36,1400,1400,1400,Paddy
+Rajasthan,Chittorgarh,Begu,1980,Other,1700,1420,1720,Maize
+Madhya Pradesh,Dindori,Gorakhpur,1440,Local,1075,1000,1150,Maize
+Maharashtra,Buldhana,Malkapur,1420,Yellow,1455,1350,1540,Maize
+Gujarat,Dahod,Dahod,1246,Yellow,1600,1550,1650,Maize
+Karnataka,Shimoga,Shimoga,1130,Hybrid/Local,1510,1490,1530,Maize
+Odisha,Nowarangpur,Nawarangpur,1122.3,Hybrid/Local,1300,1300,1640,Maize
+Uttar Pradesh,Etah,Kasganj,700,Yellow,1330,1260,1370,Maize
+Maharashtra,Jalana,Jalana,670,Deshi Red,1405,1100,1700,Maize
+Maharashtra,Dhule,Dhule,640,Yellow,1500,1439,1548,Maize
+Uttar Pradesh,Kanpur,Kanpur(Grain),600,Yellow,1650,1600,1700,Maize
+Chattisgarh,Dhamtari,Boraee,540,Medium,1540,1540,1550,Maize
+Telangana,Warangal,Narsampet,514,Hybrid,1505,1482,1509,Maize
+Karnataka,Bellary,Bellary,340,Local,1551,1469,1611,Maize
+Telangana,Karimnagar,Jagtial,314,Deshi Red,1551,1312,1611,Maize
+Chattisgarh,Kondagaon,Kondagoan,312,Local,1250,1200,1300,Maize
+Uttar Pradesh,Lakhimpur,Lakhimpur,300,Yellow,1470,1440,1500,Maize
+Karnataka,Bellary,Kottur,300,Hybrid/Local,1605,1589,1632,Maize
+Uttar Pradesh,Kannuj,Kannauj,250,Yellow,1390,1350,1450,Maize
+Karnataka,Koppal,Kustagi,230,Hybrid/Local,1510,1510,1510,Maize
+Uttar Pradesh,Etah,Etah,200,Hybrid,1350,1300,1400,Maize
+Uttar Pradesh,Kanpur,Choubepur,200,Yellow,1425,1370,1475,Maize
+Telangana,Karimnagar,Choppadandi,194,Hybrid,1546,1488,1559,Maize
+Uttar Pradesh,Agra,Agra,180,Yellow,1320,1300,1350,Maize
+Uttar Pradesh,Kannuj,Chhibramau(Kannuj),180,Hybrid Yellow (Cattle Feed),1380,1330,1430,Maize
+Karnataka,Bijapur,Bijapur,160,Hybrid/Local,1450,1400,1500,Maize
+Karnataka,Gadag,Mundaragi,130,Yellow,1519,1475,1539,Maize
+Telangana,Medak,Siddipet,113.3,Deshi Red,1545,1475,1569,Maize
+Uttar Pradesh,Hardoi,Hardoi,100,Hybrid/Local,1530,1500,1560,Maize
+Uttar Pradesh,Farukhabad,Kayamganj,100,Hybrid,1350,1340,1360,Maize
+Gujarat,Banaskanth,Deesa,770,Other,1375,1275,1425,Bajra
+Uttar Pradesh,Firozabad,Tundla,620,Hybrid,1250,1210,1285,Bajra
+Uttar Pradesh,Etah,Kasganj,600,Hybrid,1210,1200,1220,Bajra
+Uttar Pradesh,Kanpur,Kanpur(Grain),550,Deshi,1465,1400,1500,Bajra
+Karnataka,Belgaum,Ramdurga,400,Local,1250,1200,1300,Bajra
+Uttar Pradesh,Aligarh,Khair,350,Hybrid,1210,1180,1240,Bajra
+Maharashtra,Jalana,Jalana,330,Other,1375,1220,1450,Bajra
+Gujarat,Banaskanth,Deesa(Bhildi),214,Other,1350,1335,1400,Bajra
+Rajasthan,Sikar,Surajgarh,209,Other,1345,1345,1345,Bajra
+Rajasthan,Alwar,Kherli,208,Other,1296,1205,1360,Bajra
+Gujarat,Dahod,Dahod,185,Other,1240,1200,1250,Bajra
+Uttar Pradesh,Etah,Etah,180,Hybrid,1220,1200,1240,Bajra
+Karnataka,Koppal,Kustagi,180,Hybrid,1405,1400,1410,Bajra
+Rajasthan,Sikar,Sri Madhopur,178,Other,1244,1200,1275,Bajra
+Rajasthan,Dausa,Lalsot,175,Other,1250,1180,1266,Bajra
+Uttar Pradesh,Aligarh,Charra,175,Hybrid,1200,1150,1220,Bajra
+Maharashtra,Dhule,Dhule,170,Other,1405,1355,1535,Bajra
+Uttar Pradesh,Agra,Agra,150,Deshi,1220,1200,1250,Bajra
+Uttar Pradesh,Auraiya,Auraiya,150,Hybrid,1240,1160,1300,Bajra
+Uttar Pradesh,Hathras,Haathras,140,Hybrid,1250,1200,1260,Bajra
+Uttar Pradesh,Mathura,Mathura,120,Hybrid,1220,1210,1235,Bajra
+Uttar Pradesh,Firozabad,Sirsaganj,111,Hybrid,1190,1180,1200,Bajra
+Uttar Pradesh,Agra,Achnera,110,Deshi,1230,1200,1260,Bajra
+Uttar Pradesh,Etah,Awagarh,110,Hybrid,1100,1000,1200,Bajra
+Uttar Pradesh,Firozabad,Shikohabad,100,Hybrid,1350,1335,1365,Bajra
+Uttar Pradesh,Kanpur,Kanpur(Grain),600,Desi (Whole),4950,4850,5000,BengalGram
+Maharashtra,Dhule,Dhule,540,Other,4940,4150,5025,BengalGram
+Maharashtra,Bhandara,Pavani,520,Other,5000,4900,5100,BengalGram
+Gujarat,Patan,Radhanpur,450,Desi (Whole),5085,5000,5120,BengalGram
+Uttar Pradesh,Hamirpur,Maudaha,260,Desi (Whole),5000,4900,5100,BengalGram
+Karnataka,Raichur,Raichur,250,Jawari/Local,4679,3606,5225,BengalGram
+Maharashtra,Nanded,Hadgaon,230,Other,4850,4700,5000,BengalGram
+Karnataka,Dharwad,Hubli (Amaragol),200,Jawari/Local,5042,3560,5218,BengalGram
+Uttar Pradesh,Jhansi,Mauranipur,200,Desi (Whole),5045,4825,5100,BengalGram
+Maharashtra,Vashim,Malegaon(Vashim),200,Other,4500,4200,5000,BengalGram
+Maharashtra,Yavatmal,Umarkhed,170,Other,4300,4200,4400,BengalGram
+Karnataka,Belgaum,Ramdurga,160,Other,4500,4500,4500,BengalGram
+Maharashtra,Jalgaon,Jalgaon,130,Other,5000,5000,5000,BengalGram
+Karnataka,Gadag,Laxmeshwar,110,Jawari/Local,4174,3389,5085,BengalGram
+Maharashtra,Jalana,Jalana,1180,Other,1900,1300,3500,Jowar
+Uttar Pradesh,Kanpur,Kanpur(Grain),400,Red,1850,1800,1900,Jowar
+Karnataka,Gadag,Gadag,360,Jowar ( White),1717,1004,2909,Jowar
+Maharashtra,Jalgaon,Jalgaon,250,Other,2250,2000,2400,Jowar
+Maharashtra,Osmanabad,Tuljapur,160,Jowar ( White),2200,1975,2400,Jowar
+Maharashtra,Jalgaon,Yawal,100,Other,1390,970,1680,Jowar
+Uttar Pradesh,Aligarh,Khair,270,Dara,1510,1480,1550,Barley
+Uttar Pradesh,Aligarh,Aligarh,250,Dara,1500,1480,1520,Barley
+Uttar Pradesh,Etah,Kasganj,120,Dara,1520,1510,1530,Barley
+Karnataka,Gadag,Nargunda,410,GCH,5300,5150,5500,Cotton
+Maharashtra,Jalgaon,Yawal,360,Other,5230,4690,5690,Cotton
+Karnataka,Dharwad,Annigeri,280,GCH,5300,4600,5750,Cotton
+Gujarat,Ahmedabad,Dhandhuka,150,Shanker 6 (B) 30mm FIne,5340,4500,6175,Cotton
+Karnataka,Gadag,Gadag,140,GCH,4922,4801,5200,Cotton

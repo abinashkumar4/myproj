@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>{{ title }}</title>
+	<link rel="shortcut icon" href="{{ url_for('static', filename='images/logo1.png') }}"/>
+
+	<!-- for-mobile-apps -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<style>
+	</style>
+	<script>
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+
+
+
+
+
+
+
+	</script>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+		crossorigin="anonymous"></script>
+		<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
+	</body>
+	<!-- css files -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="{{ url_for('static', filename='css/bootstrap.css') }}" rel='stylesheet' type='text/css' />
+	<!-- bootstrap css -->
+	<link href="{{ url_for('static', filename='css/style.css') }}" rel='stylesheet' type='text/css' />
+	<!-- custom css -->
+	<link href="{{ url_for('static', filename='css/font-awesome.min.css') }}" rel="stylesheet">
+
+
+	<script type="text/JavaScript" src="{{ url_for('static', filename='scripts/cities.js') }}"></script>
+
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+	<!-- //google fonts -->
+
+	<style>
+		
+.sub-footer{
+  margin-top: 80px;
+  padding:70px;
+  background-color: rgba(165, 206, 171, 0.7);
+  color: black;
+  text-align: justify;
+}
+
+.sub-footer h1{
+  font-size: 15px;
+  text-align: left;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.sub-footer p{
+  font-size: 12px;
+  text-align: left;
+}
+.sub-footer .fab{
+  margin-right:20px;
+  font-size: 15px;
+ }
+.sub-footer hr{
+   margin-top: 10px;
+ }
+.sub-footer .copyright{
+  text-align: center;
+  font-size: 15px;
+}
+.sub-footer a{
+   color: #fff;
+   text-decoration: none;
+}
+
+
+
+
+
+
+  .work{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+  }
+
+  .work-col{
+	flex-basis: 31%;
+	background: rgba(165, 206, 171, 0.7);
+	border-radius: 10px;
+	margin-bottom: 30px;
+	padding: 20px 12px;
+	box-sizing: border-box;
+	margin-left: 10px;
+	margin-right: 5px;
+  }
+
+  .work-col:hover{
+	box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+  }
+  
+
+::-webkit-scrollbar{
+  width: 10px;
+  background-color: #f1f1f1;
+}
+::-webkit-scrollbar-thumb{
+  background-color: rgba(94, 177, 106, 0.7);
+}
+
+
+	</style>
+</head>
+
+<body>
+
+	<!-- Navigation -->
+	<nav class="navbar navbar-expand-lg navbar-light  static-top header" style="background-color: rgba(9, 131, 104, 0);">
+		<div class="container">
+			<a class="navbar-brand" href="{{ url_for('home') }}">
+				<img src="{{ url_for('static', filename='images/logo1.png') }}" style="width: 90px; height: 55px" alt="">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+				aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="{{ url_for('home') }}">HOME
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="{{ url_for('crop_recommend') }}">CROP</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="{{ url_for('fertilizer_recommendation') }}">FERTILIZER</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="{{ url_for('mymsp') }}">MSP</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="{{ url_for('video_recommend') }}">VIDEOS</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="{{ url_for('faq') }}">FAQ</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="{{ url_for('weather') }}">weather</a>
+					</li>
+					
+					
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+
+
+	{% block body %} {% endblock %}
+
+	<!-- footer -->
+	
+
+		<section class="sub-footer">
+  <div class="container">
+  <div class="row">
+  
+    <div class="col-md-3">
+  
+      <b><h1>AgriFriend</h1></b>
+      <p style="text-align:justify">We use state-of-the-art machine learning and deep learning technologies to help you guide through the entire farming process.
+
+      </p>
+	  
+    </div>
+    <div class="col-md-3">
+  
+      <b><h1>Thank You</h1></b>
+      <p>Dr Vishnu Srinivasa Murthy Y</p>
+      <p>Sr. Assistant Professor</p>
+      <p>VIT,Vellore</p>
+      <p>India</p>
+    </div>
+
+  
+    <div class="col-md-3">
+  
+      <b><h1>Team AgriFriend</h1></b>
+      <p>Mr. Abhinash Kumar Ray(BCE)</p>
+      <p>Mr. Rahul Biswas(BCI)</p>
+      <p>Mr. Mohit Kumar(BCE)</p>
+    </div>
+
+	  
+    <div class="col-md-3">
+  
+      <b><h1>Contact Us</h1></b>
+      <p>Location: India</p>
+      <p>Email Us: agrifriend@gmail.com</p>
+    </div>
+    </div>
+    <hr>
+    <p style="text-align: center;margin-top: 20px;">An Environment Intelligence Startup & all rights reserved by <strong>Team AgriFriend</strong> &copy; 2021</p>
+    </div>
+      </section>
+
+
+	
+	<!-- //footer -->
+
+</body>
+
+</html>

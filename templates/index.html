@@ -1,0 +1,295 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+<style>
+.about{
+  margin: 100px auto;
+  width: 80%;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  text-align: center;
+  padding: 100px 0;
+}
+.about p{
+  color: #fff;
+  margin-bottom: 40px;
+  padding: 0%;
+}
+.about h1{
+  color: #fff;
+  margin-bottom: 40px;
+  padding: 0%;
+}
+@media(max-width:7000px){
+  .cta h1{
+    font-size: 24px;
+  }
+}
+
+
+
+
+.new{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+.post{
+  width: calc(33% - 10px);
+  overflow: hidden;
+}
+
+.post-img{
+  width: 100%;
+  border-radius: 6px;
+  transition: .3s linear;
+}
+
+.post-content{
+  background-color: #f5f5f5;
+ color:black;
+  margin: 0 20px;
+  padding: 30px;
+  border-radius: 6px;
+  transform: translateY(-60px);
+  transition: .3s linear;
+}
+
+.post-content h3{
+  font-size: 16px;
+  margin-bottom: 10px;
+  color:black;
+}
+.post:hover .post-img{
+  transform: translateY(20px);
+}
+
+.post:hover .post-content{
+  transform: translateY(-80px);
+}
+
+@media screen and (max-width: 1200px){
+  .blog-posts{
+    justify-content: center;
+  }
+  .post{
+    width: min(600px, 100%);
+  }
+}
+
+ .location{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+  }
+  .location iframe{
+    width: 100%;
+  }
+
+
+  .contact{
+    width: 80%;
+    margin: auto;
+  }
+  .contact-col {
+    flex-basis: 48%;
+    margin-bottom: 30px;
+  }
+  .contact-col div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  .contact-col div .fa{
+    font-size: 28px;
+    color: rgba(165, 206, 171, 0.7);
+    margin: 10px;
+    margin-right: 30px;
+  }
+  .contact-col div p{
+    padding: 0%;
+  }
+  .contact-col div h5{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: 400;
+  }
+  .contact-col input, .contact-col textarea{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+
+
+.subaboutus{
+  width: 50%;
+  margin: auto;
+  padding-top: 80px;
+}
+.subaboutus-col{
+  flex-basis: 48%;
+  padding: 30px 2px;
+}
+.subaboutus-col img{
+  width: 50%;
+}
+.subaboutus-col h1{
+  padding-top: 0%;
+}
+.subaboutus-col p{
+  padding: 15px 0 25px;
+  text-align: justify;
+}
+</style>
+<!-- banner -->
+<section class="banner_w3lspvt" id="home" style='background-image:url({url})'>
+	<div class="csslider infinity" id="slider1">
+	
+				<div class="banner-top">
+					<div class="overlay">
+						<div class="container">
+							<div class="w3layouts-banner-info text-center">
+								<h3 class="text-wh">AGRIFRIEND</h3>
+								<h4 class="text-wh mx-auto my-4"><b>Get informed decisions about your farming strategy.</b></h4>	
+							</div>
+						</div>
+					</div>
+				</div>
+	</div>
+</section>
+<!-- //banner -->
+
+<!-- core values -->
+<section class="work">
+	<h3 class="heading mb-sm-5 mb-4 text-center"> We Will Answer You</h3>
+	
+	
+	<div class="row">
+	<div class="work-col">
+	<h3>What kind of crop to plant here</h3><h1>?</h1>
+	</div>
+	<div class="work-col">
+	  <h3>What kind of fertilizer to use</h3><h1>?</h1>
+	  </div>
+	  <div class="work-col">
+		<h3>How much should I sell the crop </h3><h1>?</h1>
+		</div>
+	  </div>
+	  </section>
+
+
+ <!----aim Section-->
+    <section class="new">
+     <h3 class="heading mb-sm-5 mb-4 text-center"> Our Aim</h3>
+      <div class="row">
+      <div class="post">
+    	<img src="{{ url_for('static', filename='images/pic1.png') }}" class="post-img" alt="" />
+        <div class="post-content">
+          <h3>IMPROVING AGRICULTURE</h3>
+        </div>
+      </div>
+      <div class="post">
+        <img src="{{ url_for('static', filename='images/pic2.png') }}" class="post-img" alt="" />
+        <div class="post-content">
+          <h3>IMPROVING LIVES</h3>
+        </div>
+      </div>
+      <div class="post">
+        <img src="{{ url_for('static', filename='images/pic9.png') }}" class="post-img" alt="" />
+        <div class="post-content">
+          <h3>INCREASING PROFIT</h3>
+        </div>
+      </div>
+      </div>
+      </section>
+
+<!-- Products & Services -->
+<section class="blog py-5">
+	<div class="container py-md-5">
+		<h3 class="heading mb-sm-5 mb-4 text-center"> Our Services</h3>
+		<div class="row blog-grids m-40">
+			<div class="col-lg-4 col-md-6 blog-left mb-lg-0 mb-sm-5 pb-lg-0 pb-5 ">
+				<img src="{{ url_for('static', filename='images/pic4.png') }}" class="img-fluid" alt="" />
+				<a href="{{ url_for('crop_recommend') }}">
+					<div class="blog-info">
+
+						<h4>Crop</h4>
+
+						<p class="mt-2"> Recommendation about the type of crops to be cultivated which is best suited
+							for the respective conditions</p>
+					</div>
+				</a>
+			</div>
+			<div class="col-lg-4 col-md-6 blog-middle mb-lg-0 mb-sm-5 pb-lg-0 pb-md-5">
+				<img src="{{ url_for('static', filename='images/PIC8.png') }}" class="img-fluid" alt="" />
+				<a href="{{ url_for('fertilizer_recommendation') }}">
+					<div class="blog-info">
+						<h4>Fertilizer</h4>
+						<p class="mt-2">Recommendation about the type of fertilizer best suited for the particular soil
+							and the recommended crop</p>
+					</div>
+				</a>
+			</div>
+
+			<div class="col-lg-4 col-md-6 blog-middle mb-lg-0 mb-sm-5 pb-lg-0 pb-md-5">
+				<img src="{{ url_for('static', filename='images/s1.png') }}" class="img-fluid" alt="" />
+				<a href="{{ url_for('fertilizer_recommendation') }}">
+					<div class="blog-info">
+						<h4>CROP PRICE</h4>
+						<p class="mt-2">Predicting the price of the crops in the market according to the current trends to increase profit of the farmer.</p>
+					</div>
+				</a>
+			</div>
+			
+		</div>
+	</div>
+</section>
+
+<!----about-->
+<section class="about">
+  <h1>About AgriFriend</h1>
+  <p>We use state-of-the-art machine learning and deep learning technologies to help you guide through the entire farming process. Make informed decisions to understand the demographics of your area, understand the factors that affect your crop and keep them healthy for a super awesome successful yield.</p>
+
+
+</section>
+
+
+<section  class="subaboutus">
+   <div class="row">
+    <div class="subabout-col">
+        <h1>Get Informed Decisions About Your Farming Strategy</h1><br>
+       <p style="text-align: justify;padding-right: 80px;">AgriFriend system will be able to recommend the crop based on the parameter using our machine learning model which will be trained using these parameters data. 
+           The system will also provide the farmers to connect with government employed agriculture committee if they have any query. 
+    As an extension
+         we would also like to add the level of fertilizers and pesticides based on nutrient value of the soil in that area. 
+         This system will create win situation for both government as well as farmers as the crop productivity will increase and which will solve the problem of food which will arise due to growing population of our country. 
+         Also this system can provide the benchmarks to provide and formal training campaign organized by government the farmers may be notified through such application even it will facilitate the training through videos uploaded for training farmers.<br>
+        </div>
+        <div class="subabout-col">
+ <img src="{{ url_for('static', filename='images/logo1.png') }}" alt="" />
+    
+            </div>
+    </div>
+</section>
+
+
+<section  class="location">
+<h3 class="heading mb-sm-5 mb-4 text-center">Our Location</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124452.19076275238!2d79.04830162694442!3d12.899299434271512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bad38e61fa68ffb%3A0xbedda6917d262b5e!2sVellore%2C%20Tamil%20Nadu%2C%20India!5e0!3m2!1sen!2sbd!4v1616778119519!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    
+</section>
+
+
+
+</html>
+
+{% endblock %}
